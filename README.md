@@ -29,9 +29,8 @@ Simple SPA "My Notes" application to create notes with todos
 - Vue.js, Vue-Router, Vuex, Vuex-Persistedstate
 ```
 ## Demo
-```
 - [DEMO](https://tyooma.github.io/vue-my-notes-app/)
-```
+
 ## Project setup
 ```
 npm install
