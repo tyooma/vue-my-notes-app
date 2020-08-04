@@ -7,7 +7,7 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/',
+      path: '/vue-my-notes-app/',
       component: () => import('./components/NotesList.vue'),
     },
     {
