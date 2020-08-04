@@ -1,6 +1,6 @@
 <template>
   <div class="todos" v-bind:style="{ '--activeColor': activeColor }">
-    <router-link to="/">
+    <router-link to="/vue-my-notes-app">
       <button class="todos__back-button"> 	
         &#10094;
       </button>
