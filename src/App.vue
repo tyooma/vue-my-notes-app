@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="app">
-    <router-link class="app__header--link" to="/">
+    <router-link class="app__header--link" to="/vue-my-notes-app">
       <h1 class="app__header">My Notes</h1>
     </router-link>
     <router-view />

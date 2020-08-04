@@ -7,11 +7,11 @@ export default new Router({
   mode: 'history',
   routes: [
     {
-      path: '/vue-my-notes-app/',
+      path: '/vue-my-notes-app',
       component: () => import('./components/NotesList.vue'),
     },
     {
-      path: '/todo-list/:id',
+      path: '/vue-my-notes-app/todo-list/:id',
       component: () => import('./components/TodoList.vue'),
     }
   ],

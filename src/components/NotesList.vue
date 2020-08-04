@@ -1,6 +1,6 @@
 <template>
   <div class="notes">
-    <router-link class="notes__link" :to="`/todo-list/${this.generatedNoteId}`">
+    <router-link class="notes__link" :to="`/vue-my-notes-app/todo-list/${this.generatedNoteId}`">
       <button
         class="notes__button"
         @click="noteIdGenerator(); addNote()"
@@ -14,7 +14,7 @@
           v-for="(note, index) of getNotes"
           v-bind:key="note.noteId"
         >
-          <router-link class="notes__link" :to="`/todo-list/${note.noteId}`">
+          <router-link class="notes__link" :to="`/vue-my-notes-app/todo-list/${note.noteId}`">
             <div @click="setCurrentNoteIndex(index)">{{ note.noteTitle }}</div>
           </router-link>
           <button
@@ -23,7 +23,7 @@
           >
             &times;
           </button>
-          <router-link class="notes__link" :to="`/todo-list/${note.noteId}`">
+          <router-link class="notes__link" :to="`/vue-my-notes-app/todo-list/${note.noteId}`">
             <div v-if="note.todos.length">
               <div class="notes__todos" v-if="note.todos.length < 5">
                 <span
