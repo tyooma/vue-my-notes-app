@@ -10,6 +10,7 @@ Simple SPA "My Notes" application to create notes with todos
 - First you need to give a title to the note: press "Enter" to add a title
 - Then you can add todos to this note: type todo and press "Enter"
 - When you finish adding todos click on the button at the top left of the input - it's bring you back to the main page
+- There is automatically save
 
 ### Edit notes & todos
 - To edit a note, first you need to open it by clicking on its title or its todos list below
